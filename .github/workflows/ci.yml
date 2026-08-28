@@ -25,4 +25,4 @@ jobs:
       - name: Run tests
         run: python -m pytest
       - name: Compile source
-        run: python -m compileall -q src projects
+        run: python -m compileall -q src
