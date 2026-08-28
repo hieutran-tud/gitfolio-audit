@@ -12,7 +12,7 @@ GitHub profiles often contain useful work that is difficult to evaluate quickly.
 
 The score is a conversation starter, not a judgment of a developer's ability.
 
-This repository is the index for four companion projects that demonstrate the engineering practices the auditor checks. Together, they cover data validation, experiment tracking, model documentation, and drift monitoring:
+This repository is the index for the [ML Reliability Toolkit](https://github.com/hieutran-tud/hieutran-tud), a set of companion projects that demonstrate the engineering practices the auditor checks. Together, they cover data validation, experiment tracking, model documentation, and drift monitoring:
 
 - [Data Contract Checker](https://github.com/hieutran-tud/data-contract-checker)
 - [Experiment Tracker Lite](https://github.com/hieutran-tud/experiment-tracker-lite)
@@ -50,6 +50,17 @@ gitfolio-audit octocat
 ```
 
 The tool only requests public profile, repository, and root-content endpoints. It does not modify GitHub data.
+
+## Reproducible example
+
+Run an audit and save both a human-readable report and machine-readable output:
+
+```bash
+gitfolio-audit octocat --format markdown --output report.md
+gitfolio-audit octocat --format json --output report.json
+```
+
+The generated files make the findings easy to review, share, or process in another tool.
 
 ## Scoring model
 
