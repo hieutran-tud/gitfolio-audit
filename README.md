@@ -12,7 +12,12 @@ GitHub profiles often contain useful work that is difficult to evaluate quickly.
 
 The score is a conversation starter, not a judgment of a developer's ability.
 
-This repository also contains four companion projects that demonstrate the engineering practices the auditor checks. See [PORTFOLIO.md](PORTFOLIO.md) for the complete five-project catalog.
+This repository is the index for four companion projects that demonstrate the engineering practices the auditor checks. Together, they cover data validation, experiment tracking, model documentation, and drift monitoring:
+
+- [Data Contract Checker](https://github.com/hieutran-tud/data-contract-checker)
+- [Experiment Tracker Lite](https://github.com/hieutran-tud/experiment-tracker-lite)
+- [Model Card Generator](https://github.com/hieutran-tud/model-card-generator)
+- [Data Drift Monitor](https://github.com/hieutran-tud/data-drift-monitor)
 
 ## Features
 
