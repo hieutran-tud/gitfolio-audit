@@ -51,7 +51,7 @@ gitfolio-audit octocat
 
 The tool only requests public profile, repository, and root-content endpoints. It does not modify GitHub data.
 
-## Reproducible example
+## Proof of use — reproducible example
 
 Run an audit and save both a human-readable report and machine-readable output:
 
@@ -112,6 +112,10 @@ The GitHub Actions workflow runs the test suite on Python 3.11 and 3.12 for push
 ## Limitations and roadmap
 
 The first version intentionally focuses on public REST data and repository root signals. It does not try to infer code quality, measure commit authenticity, or scrape dynamic profile sections such as pinned repositories.
+
+## When to use it
+
+Use Gitfolio Audit before sharing a profile, applying for a role, or asking for portfolio feedback to get an explainable checklist.
 
 Possible next steps:
 
